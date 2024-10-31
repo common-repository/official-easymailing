@@ -1,0 +1,324 @@
+# Copyright (C) 2021 Easymailing
+# This file is distributed under the same license as the Official Easymailing Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Official Easymailing Plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easymailing-"
+"official\n"
+"POT-Creation-Date: 2024-03-07T14:44:20+00:00\n"
+"PO-Revision-Date: 2024-03-07 16:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: easymailing\n"
+
+#. Plugin Name of the plugin
+#: easymailing-official.php
+msgid "Official Easymailing"
+msgstr "Plugin oficial Easymailing"
+
+#. Plugin URI of the plugin
+#: easymailing-official.php
+msgid "https://github.com/easymailing/wordpress-plugin"
+msgstr "https://github.com/easymailing/wordpress-plugin"
+
+#. Description of the plugin
+#: easymailing-official.php
+msgid "Official Easymailing plugin for integrate forms in WordPress"
+msgstr "Plugin oficial de Easymailing para integrar formularios en Wordpress"
+
+#. Author of the plugin
+#: easymailing-official.php
+msgid "Easymailing"
+msgstr "Easymailing"
+
+#. Author URI of the plugin
+#: easymailing-official.php
+msgid "https://easymailing.com"
+msgstr "https://easymailing.com"
+
+#: config/app.admin.controllers.php:9 config/app.admin.controllers.php:36
+#: config/app.admin.controllers.php:37
+msgid "Configuración"
+msgstr "Configuración"
+
+#: config/app.admin.controllers.php:46 config/app.admin.controllers.php:47
+#: templates/Admin/Configuration/error.php:2 templates/Admin/Form/index.php:2
+msgid "Formularios"
+msgstr "Formularios"
+
+#: config/app.admin.controllers.php:57 templates/Admin/Form/popup.php:3
+#: templates/Admin/Form/popup_show.php:3
+msgid "Formulario Popup"
+msgstr "Formulario Popup"
+
+#: config/app.admin.controllers.php:58
+msgid "Formularios Popup"
+msgstr "Formularios Popup"
+
+#: config/app.admin.controllers.php:67 templates/Admin/Form/embedded.php:3
+msgid "Formulario Incrustado"
+msgstr "Formulario Incrustado"
+
+#: config/app.admin.controllers.php:68
+msgid "Formularios Incrustado"
+msgstr "Formularios Incrustado"
+
+#: src/Controller/Admin/AjaxController.php:35
+msgid "La clave API no es correcta"
+msgstr "La clave API no es correcta"
+
+#: src/Controller/Admin/AjaxController.php:43
+msgid "Tienes que añadir tu clave API a la configuración del plugin"
+msgstr "Tienes que añadir tu clave API a la configuración del plugin"
+
+#: src/Controller/Admin/FormController.php:69
+msgid "El formulario se ha eliminado correctamente"
+msgstr "El formulario se ha eliminado correctamente"
+
+#: src/Controller/Admin/FormController.php:88
+msgid "El formulario se ha configurado correctamente"
+msgstr "El formulario se ha configurado correctamente"
+
+#: src/Controller/ShortcodeController.php:19
+msgid "Error - Te falta el atributo \"hash\" en el shortcode"
+msgstr "Error - Te falta el atributo \"hash\" en el shortcode"
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:30
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:38
+msgid "EasyMailing"
+msgstr "Easymailing"
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:51
+msgid ""
+"La API Key de EasyMailing no está configurada. Por favor, configúrala en la "
+"%1$sconfiguración del plugin%2$s de EasyMailing."
+msgstr ""
+"La API Key de EasyMailing no está configurada. Por favor, configúrala en la "
+"%1$sconfiguración del plugin%2$s de EasyMailing."
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:84
+#: templates/Admin/Form/embedded.php:13 templates/Admin/Form/popup.php:11
+msgid "Audiencia"
+msgstr "Audiencia"
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:87
+msgid "Selecciona la audiencia de EasyMailing."
+msgstr "Selecciona la audiencia de EasyMailing."
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:95
+msgid "Grupos"
+msgstr "Grupos"
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:99
+msgid ""
+"Selecciona uno o varios grupos para vincular los suscriptores que se "
+"suscriban en el formularios."
+msgstr ""
+"Selecciona uno o varios grupos para vincular los suscriptores que se "
+"suscriban en el formularios."
+
+#: src/Core/Provider/Elementor/EasymailingFormAction.php:113
+msgid "Mapeo de campos"
+msgstr "Mapeo de campos"
+
+#: templates/Admin/Configuration/index.php:3
+msgid "Configuración del plugin"
+msgstr "Configuración del plugin"
+
+#: templates/Admin/Configuration/index.php:18
+msgid ""
+"Para poder empezar a configurar tus formularios necesitas introducir la "
+"clave API de Easymailing. Puedes encontrarla en configuración > Claves API"
+msgstr ""
+"Para poder empezar a configurar tus formularios necesitas introducir la "
+"clave API de Easymailing. Puedes encontrarla en configuración > Claves API"
+
+#: templates/Admin/Configuration/index.php:23
+msgid "Tu clave API está configurada correctamente"
+msgstr "Tu clave API está configurada correctamente"
+
+#: templates/Admin/Configuration/index.php:30
+msgid "Clave API"
+msgstr "Clave API"
+
+#: templates/Admin/Configuration/index.php:32
+msgid "Tu clave API"
+msgstr "Tu clave API"
+
+#: templates/Admin/Configuration/index.php:35
+msgid "Si necesitas ayuda para encontrar tu clave API"
+msgstr "Si necesitas ayuda para encontrar tu clave API"
+
+#: templates/Admin/Configuration/index.php:37
+msgid "haz clic aquí"
+msgstr "haz clic aquí"
+
+#: templates/Admin/Configuration/index.php:45 templates/Admin/Form/popup.php:37
+msgid "Guardar"
+msgstr "Guardar"
+
+#: templates/Admin/Form/embedded.php:5
+msgid ""
+"Recuerda que también puedes añadir tu formulario incrustado desde cualquier "
+"post a través del editor Gutenberg"
+msgstr ""
+"Recuerda que también puedes añadir tu formulario incrustado desde cualquier "
+"post a través del editor Gutenberg"
+
+#: templates/Admin/Form/embedded.php:6
+msgid ""
+"Para configurar un formulario tipo incrustado, tienes que seleccionar "
+"primero una audiencia y después el formulario que quieres incrustar"
+msgstr ""
+"Para configurar un formulario tipo incrustado, tienes que seleccionar "
+"primero una audiencia y después el formulario que quieres incrustar"
+
+#: templates/Admin/Form/embedded.php:7 templates/Admin/Form/popup.php:6
+msgid ""
+"Si no encuentras el formulario asegúrate de esté publicado desde el panel de "
+"control Easymailing"
+msgstr ""
+"Si no encuentras el formulario asegúrate de esté publicado desde el panel de "
+"control Easymailing"
+
+#: templates/Admin/Form/embedded.php:15 templates/Admin/Form/popup.php:13
+#: assets/build/block/form_block_script.js:52
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:15
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:68
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:135
+msgid "Selecciona una audiencia"
+msgstr "Selecciona una audiencia"
+
+#: templates/Admin/Form/embedded.php:24 templates/Admin/Form/popup.php:22
+msgid "Formulario"
+msgstr "Formulario"
+
+#: templates/Admin/Form/embedded.php:25 templates/Admin/Form/embedded.php:26
+#: templates/Admin/Form/popup.php:23 templates/Admin/Form/popup.php:24
+#: assets/build/block/form_block_script.js:52
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:23
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:86
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:144
+msgid "Selecciona un formulario"
+msgstr "Selecciona un formulario"
+
+#: templates/Admin/Form/embedded.php:32 templates/Admin/Form/popup.php:30
+msgid "No hay formularios tipo popup en la audiencia seleccionada"
+msgstr "No hay formularios tipo popup en la audiencia seleccionada"
+
+#: templates/Admin/Form/embedded.php:39
+msgid ""
+"Copia el siguiente shortcode y pégalo en cualquier post para incrustar el "
+"formulario:"
+msgstr ""
+"Copia el siguiente shortcode y pégalo en cualquier post para incrustar el "
+"formulario:"
+
+#: templates/Admin/Form/index.php:4
+msgid "Selecciona el tipo de formulario que quieres configurar"
+msgstr "Selecciona el tipo de formulario que quieres configurar"
+
+#: templates/Admin/Form/index.php:10 templates/Admin/Form/index.php:15
+msgid "Popup"
+msgstr "Popup"
+
+#: templates/Admin/Form/index.php:12
+msgid "Selecciona un formulario popup para tu sitio web"
+msgstr "Selecciona un formulario popup para tu sitio web"
+
+#: templates/Admin/Form/index.php:20 templates/Admin/Form/index.php:25
+msgid "Incrustado"
+msgstr "Incrustado"
+
+#: templates/Admin/Form/index.php:22
+msgid "Añade un formulario en cualquier página de tu sitio web"
+msgstr "Añade un formulario en cualquier página de tu sitio web"
+
+#: templates/Admin/Form/popup.php:5
+msgid ""
+"Para configurar un formulario tipo popup, tienes que seleccionar primero una "
+"audiencia y después el formulario que quieres integrar"
+msgstr ""
+"Para configurar un formulario tipo popup, tienes que seleccionar primero una "
+"audiencia y después el formulario que quieres integrar"
+
+#: templates/Admin/Form/popup_show.php:5
+msgid ""
+"Para deshabilitar el formulario o configurar uno nuevo haz clic en eliminar"
+msgstr ""
+"Para deshabilitar el formulario o configurar uno nuevo haz clic en eliminar"
+
+#: templates/Admin/Form/popup_show.php:18
+msgid "Eliminar"
+msgstr "Eliminar"
+
+#: templates/Admin/Partials/need_help.php:1
+msgid "¿Necesitas ayuda?"
+msgstr "¿Necesitas ayuda?"
+
+#: templates/Admin/Partials/need_help.php:3
+msgid ""
+"Si tienes algún problema o no consigues configurar el plugin puedes ponerte "
+"en contacto con nosotros."
+msgstr ""
+"Si tienes algún problema o no consigues configurar el plugin puedes ponerte "
+"en contacto con nosotros."
+
+#: templates/Admin/Partials/need_help.php:5
+msgid "Contacta con nosotros"
+msgstr "Contacta con nosotros"
+
+#: templates/Admin/Partials/not_have_account.php:1
+msgid "¿No tienes una cuenta?"
+msgstr "¿No tienes una cuenta?"
+
+#: templates/Admin/Partials/not_have_account.php:3
+msgid ""
+"Si todavía no tienes una cuenta en Easymailing haz clic en el siguiente "
+"botón."
+msgstr ""
+"Si todavía no tienes una cuenta en Easymailing haz clic en el siguiente "
+"botón."
+
+#: templates/Admin/Partials/not_have_account.php:5
+msgid "¡Regístrate gratis!"
+msgstr "¡Regístrate gratis!"
+
+#: assets/build/block/form_block_script.js:30
+#: assets/src/js/block/blocks/formBlock/Edit.js:91
+#: assets/src/js/block/blocks/formBlock/Edit.js:138
+msgid "Formularios de Easymailing"
+msgstr "Formularios de Easymailing"
+
+#: assets/build/block/form_block_script.js:30
+#: assets/src/js/block/blocks/formBlock/Edit.js:98
+msgid "Añadir mi clave API"
+msgstr "Añadir mi clave API"
+
+#: assets/build/block/form_block_script.js:30
+#: assets/src/js/block/blocks/formBlock/Edit.js:112
+msgid "Editar formulario"
+msgstr "Editar formulario"
+
+#: assets/build/block/form_block_script.js:30
+#: assets/src/js/block/blocks/formBlock/Edit.js:141
+msgid ""
+"Selecciona primero una audiencia y luego el formulario que quieras incrustar"
+msgstr ""
+"Selecciona primero una audiencia y luego el formulario que quieras incrustar"
+
+#: assets/build/block/form_block_script.js:52
+#: assets/src/js/block/blocks/formBlock/FormSelector.js:151
+msgid "Incrustar"
+msgstr "Incrustar"
+
+#: assets/build/block/form_block_script.js:63
+#: assets/src/js/block/blocks/formBlock/index.js:8
+msgid "Formularios Easymailing"
+msgstr "Formularios Easymailing"

@@ -1,0 +1,19 @@
+{
+  "entrypoints": {
+    "easymailing_admin_script": {
+      "js": [
+        "/build/plugin/easymailing_admin_script.js"
+      ]
+    },
+    "easymailing_elementor_script": {
+      "js": [
+        "/build/plugin/easymailing_elementor_script.js"
+      ]
+    },
+    "easymailing_admin_css": {
+      "css": [
+        "/build/plugin/easymailing_admin_css.css"
+      ]
+    }
+  }
+}
